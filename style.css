@@ -6,11 +6,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background: #2d046b;
+    background: #6ca6a753;
 }
 header{
     background: #f8f6f6;
-    color: #665ed13e;
+    color: #0603293e;
     padding: 20px 50px;
 }
 nav{
@@ -49,3 +49,56 @@ section{
     color: #0c0c0c;
     text-align: center;
 }
+contact-section{
+    background: #f8f6f6;
+    color: #0603293e;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card{
+    background: #f8f6f6;
+    width: 100px;
+    max-width: 800px;
+    padding: 50px 60px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+.contact-card h2{
+    font-size: 28px;
+    color: #efeef53e;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.contact-card p.subtitle{
+    font-size: 13px;
+    color: #0603293e;
+    margin-bottom: 40px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+.form-row{
+    display: flex;
+    gap: 30px;
+}
+.form-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    font-size: 11px;
+    font-weight: 600;
+    color: #666666;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.form-group input,
+.form-group textarea{
