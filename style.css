@@ -6,11 +6,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background: #aca8a8;
+    background: #2d046b;
 }
 header{
-    background: #333;
-    color: #fff;
+    background: #f8f6f6;
+    color: #665ed13e;
     padding: 20px 50px;
 }
 nav{
